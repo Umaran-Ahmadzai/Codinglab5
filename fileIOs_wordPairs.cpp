@@ -61,6 +61,7 @@ void wordpairMapping( vector<string>& sentences, map< pair<string,string>, int> 
         if (p->second == 1)
             cout << p->first << endl;
     }
+}
    
 }//End void wordpairMapping
 
