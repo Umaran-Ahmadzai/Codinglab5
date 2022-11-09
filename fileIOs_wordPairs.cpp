@@ -44,7 +44,7 @@ bool sentenceSplitter( string& fname, vector<string>& sentences){
 
 
 void wordpairMapping( vector<string>& sentences, map< pair<string,string>, int> &wordpairFreq_map){
-    fstream fs(filename);
+    fstream fs(wordpairFreq_map);
     map<string, int> mp;
     string word;
     while (fs >> word)
